@@ -1,2 +1,2 @@
 let name = document.getElementById("username").value;
-console.log(name);
+console.log("Hello, git!");
