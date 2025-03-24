@@ -1,2 +1,6 @@
 let name = document.getElementById("username");
-console.log(name.value);
+let button = document.getElementById("my_button");
+
+button.addEventListener('click', () => {
+	console.log(name.value);
+});
